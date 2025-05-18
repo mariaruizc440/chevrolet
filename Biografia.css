@@ -1,0 +1,69 @@
+
+*{
+	padding:0;
+	maring:0;
+}
+
+body{
+	font-family:"calibri light";
+}
+
+.Biografia{
+	list-style: none;
+	padding:0;
+	background:#092327;
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+.Biografia li{
+	display: inline-block;
+	text-align: center;
+}
+.Biografia li a{
+	color: #A88BFC;
+	text-decoration:none;
+	display:inline-block;
+	padding:20px;
+}
+
+.Biografia li a:hover{
+	background:#ef8354;
+}
+
+.contenedor{
+	background: #85C1E9;
+	width: 80%;
+	margin:auto;
+}
+header{
+	height: 400px;
+	background-image:url("https://lezebre.lu/images/detailed/17/30283-Chevrolet-Camaro.png");
+	background-position:center;
+	background-size:cover;
+}
+main{
+	background: #FFFFFF;
+	padding: 20px 30px;
+	border: 2px solid #CACFD2;
+}
+main .foto{
+	width:150px;
+	height:150px;
+	background-color:#85C1E9;
+	border-radius:50%;
+	margin: -90px 0 20px 0;
+	border: 6px solid #FFFFFF;
+}
+
+main .foto img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+
+footer{
+	background: #040895;
+	height: 50px;
+}

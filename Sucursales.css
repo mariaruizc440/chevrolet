@@ -1,0 +1,62 @@
+body{font-family: Arial;}
+
+.Sucursales{
+	list-style: none;
+	padding:0;
+	background:#092327;
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+.Sucursales li{
+	display: inline-block;
+	text-align: center;
+}
+.Sucursales li a{
+	color: #A88BFC;
+	text-decoration:none;
+	display:inline-block;
+	padding:20px;
+}
+
+.Sucursales li a:hover{
+	background:#ef8354;
+}
+
+h1{
+	font-family:"roboto";
+	font-size:"30";
+	color:#bda6f9;
+	text-align:center;
+}
+
+table, td, th{
+	border:1px solid rgba(0,0,0,.2);
+}
+
+table{
+	border-collapse:collapse;
+	width:500px;
+	text-align:center;
+	margin:20px auto;
+}
+
+th, td{
+	padding:10px 20px;
+}
+
+th{
+	background:#009ddc;
+	color:#8BFCF8;
+}
+
+tr:hover{
+	background:#e5e5e5;
+}
+
+footer{
+	margin-top: 200px;
+	background: #040895;
+	height: 50px;
+}
