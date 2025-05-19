@@ -1,0 +1,56 @@
+body{
+	font-family:"Arial" sans-serif, Helvetica;
+	background:url("https://images5.alphacoders.com/432/432768.jpg");
+	background-repeat:repeat;
+
+}
+
+.Inicio{
+	list-style: none;
+	padding:0;
+	background:#092327;
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+.Inicio li{
+	display: inline-block;
+	text-align: center;
+}
+.Inicio li a{
+	color: #A88BFC;
+	text-decoration:none;
+	display:inline-block;
+	padding:20px;
+}
+
+.Inicio li a:hover{
+	background:#ef8354;
+}
+
+h1,p{
+	color:#000000;
+	text-align:center;
+}
+
+div{
+	width:60%;
+	height:500px;
+	background:#FFFFFF;
+	margin:auto;
+}
+.textoRemarcado{
+	font-weight:bold;
+	font-size:18px;
+}
+
+
+
+
+
+footer{
+	margin-top: 150px;
+	background: #9B59B6;
+	height: 50px;
+}
